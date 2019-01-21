@@ -1,0 +1,22 @@
+{
+  "name": "bsh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "electron": "electron .",
+    "rebuild": "electron-rebuild -f -w sqlite3 -v 2.0"
+  },
+  "author": "Tahlil",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.8.4",
+    "node-browser-history": "^1.0.4",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13",
+    "electron-rebuild": "^1.8.2"
+  }
+}
